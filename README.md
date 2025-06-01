@@ -25,8 +25,14 @@
 - Tag tasks as Low, Medium, or High priority to stay organized  
 
 🖼️ **Optional GUI Support** (Planned)  
-- The project is expandable to include a Tkinter-based GUI interface  
+- The project is expandable to include a Tkinter-based GUI interface
 
+
+## 🎞️ Demo Preview (GIF)  
+
+Here's a quick look at how the app works in action:
+
+![To-Do App Demo](demo.gif)  
 ---
 
 ## ⚙️ Setup & Installation  
