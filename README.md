@@ -1,13 +1,73 @@
-# python-to-do-list-GUI-
-Creating my To-Do List App in Python was a practical and rewarding coding project. As someone who values organization and productivity, 
-I wanted to design a simple yet effective tool to help users manage their tasks seamlessly.
-The app operates through a command-line interface, providing users with an intuitive platform to add, view, and delete tasks. 
-Leveraging Python's file handling capabilities, I ensured that task data is stored persistently, allowing users to access their to-do lists across sessions.
-To add a touch of interactivity, I implemented features such as marking tasks as complete and prioritizing them. 
-The app also displays a clear and concise summary of pending and completed tasks, making it easy for users to track their progress.
-Given my penchant for efficiency, I integrated a due date feature. This allows users to set deadlines for tasks, 
-providing a helpful visual cue for time-sensitive activities. Python's datetime module came in handy for managing and comparing dates, 
-ensuring the due date functionality works seamlessly.
-The simplicity of the To-Do List App is intentional, aligning with my belief that productivity tools should be accessible and user-friendly. 
-As I continue to refine and enhance this project,
-I find joy in knowing that I've created a practical solution that aligns with my personal ethos of staying organized and productive in a straightforward manner.
+# 📝 Python To-Do List GUI  
+*A simple yet powerful command-line task manager with GUI elements, persistent storage, due dates, and priority tracking.*
+
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)  
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)  
+![To-Do App Demo](todo_logo.png)  
+
+---
+
+## 🚀 Features  
+
+✅ **Task Management**  
+- Add, view, update, delete, and complete tasks with simple commands  
+
+💾 **Persistent Storage**  
+- Saves tasks in a local JSON file, retaining data between sessions  
+
+📅 **Due Date Tracking**  
+- Add deadlines to tasks using Python’s `datetime` module  
+
+📊 **Progress Summary**  
+- Displays how many tasks are pending vs completed  
+
+⚡ **Priority Levels**  
+- Tag tasks as Low, Medium, or High priority to stay organized  
+
+🖼️ **Optional GUI Support** (Planned)  
+- The project is expandable to include a Tkinter-based GUI interface  
+
+---
+
+## ⚙️ Setup & Installation  
+
+### ✅ Method 1: Git Clone  
+```bash
+git clone https://github.com/Kellybrackets/Python-to-do-list-GUI-.git
+cd Python-to-do-list-GUI-
+python main.py
+```
+
+### 📁 Method 2: Manual Download
+	1.	Download the ZIP from GitHub
+	2.	Extract the files
+	3.	Navigate to the folder
+	4.	Run the app:
+ ```
+pip install -r requirements.txt  # Only if dependencies exist
+python main.py
+ ```
+
+### 🛠️ Technical Stack
+
+Language:
+	•	Python 3.8+
+
+### Key Python Modules Used:
+ ```
+import datetime  # For managing task deadlines
+import json      # For storing and loading tasks
+import os        # For file system operations
+ ```
+
+### Planned Modules for GUI:
+ ```
+import tkinter   # For building a future GUI (not yet implemented)
+ ```
+
+### 📌 Future Enhancements
+	•	GUI using Tkinter or PyQt
+	•	Email reminders for due dates
+	•	Cloud sync with Google Drive or Firebase
+	•	CLI flags and argument parser (e.g., argparse)
+	•	Improved validation and error handling
