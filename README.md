@@ -32,7 +32,7 @@
 
 Here's a quick look at how the app works in action:
 
-![To-Do App Demo](demo.gif)  
+![To-Do App Demo](Untitled%20design(1).gif)  
 ---
 
 ## ⚙️ Setup & Installation  
